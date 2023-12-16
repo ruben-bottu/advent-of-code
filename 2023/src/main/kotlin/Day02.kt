@@ -2,7 +2,7 @@ data class Cube(val amount: Int, val color: String)
 
 
 fun parseLine(line: String): List<String> {
-    val parts = line.split(":|;")
+    val parts = line.split(":", ";")
     return parts
 }
 
